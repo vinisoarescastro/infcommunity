@@ -4,11 +4,15 @@ Site com links e informações úteis para alunos do Instituto de Informática d
 
 Feito com React, TypeScript e Vite, pensado primeiro para celular.
 
+**Quer ajudar?** Qualquer aluno pode contribuir com links, textos, correções ou melhorias. Veja como em [Como contribuir](#como-contribuir).
+
 ## Rodando localmente
 
 Requer Node.js 20 ou superior.
 
 ```bash
+git clone https://github.com/vinisoarescastro/infcommunity.git
+cd infcommunity
 npm install
 npm run dev       # servidor de desenvolvimento (http://localhost:5173)
 npm run build     # gera a versão de produção em dist/
@@ -48,6 +52,18 @@ Exemplo:
 ```
 
 Padrão de escrita: não use emojis nem travessões nos textos do site.
+
+## Como contribuir
+
+A branch `main` é protegida: ninguém envia alterações direto para ela. Toda mudança entra por Pull Request e passa por revisão antes do merge.
+
+1. Faça um **fork** do repositório e clone a sua cópia.
+2. Crie uma branch para a sua mudança (por exemplo `conteudo/link-grupo-de-estagio`).
+3. Faça a mudança, rode `npm run build` e teste no celular.
+4. Abra um **Pull Request** para a `main` deste repositório e preencha o checklist do modelo.
+5. O mantenedor revisa, pode pedir ajustes e faz o merge.
+
+O passo a passo completo, com os padrões de código, textos e imagens, está no [guia de contribuição](CONTRIBUTING.md). Para ideias maiores, abra antes uma [Issue](https://github.com/vinisoarescastro/infcommunity/issues).
 
 ## Publicação
 
