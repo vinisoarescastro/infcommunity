@@ -1,0 +1,7 @@
+# Quebra de linha LF no repositório, pra não dar diff gigante entre quem usa Windows, Mac e Linux
+* text=auto eol=lf
+
+# Imagens são binárias, o git não mexe nelas
+*.png binary
+*.jpg binary
+*.ico binary
